@@ -1,5 +1,6 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import './Body.css';
 
 class Body extends React.Component{
     constructor(props){
@@ -26,7 +27,13 @@ class Body extends React.Component{
                         </th>
                         {Object.keys(element).map(key => {
                             if(!this.props.unUsedValues.includes(key)){
-                                return <th key={uuidv4()}><input type={"text"} defaultValue={element[key]}/></th>
+                                return (
+                                    <th key={uuidv4()}>
+                                        <input 
+                                            className={element.checkedValue?"":"unchecked"} 
+                                            type={"text"} 
+                                            defaultValue={element[key]}/>
+                                    </th>);
                             }
                             return null;
                         })}
