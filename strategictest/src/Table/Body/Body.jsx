@@ -25,7 +25,6 @@ class Body extends React.Component{
                             />
                         </th>
                         {Object.keys(element).map(key => {
-                            console.log()
                             if(!this.props.unUsedValues.includes(key)){
                                 return <th key={uuidv4()}><input type={"text"} defaultValue={element[key]}/></th>
                             }
