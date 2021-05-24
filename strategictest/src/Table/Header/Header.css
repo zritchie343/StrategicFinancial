@@ -1,0 +1,9 @@
+.headerLabel {
+    outline: black solid 1px;
+    padding: 0px 100px 0px 0px;
+    height: 50px;
+}
+
+.headerCheckbox {
+    width: 85px;
+}

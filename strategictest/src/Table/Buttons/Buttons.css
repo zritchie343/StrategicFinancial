@@ -1,0 +1,17 @@
+.AddDebt {
+    background-color: #0295f0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    font-weight: 500;
+}
+
+.RemoveDebt {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    font-weight: 500;
+}

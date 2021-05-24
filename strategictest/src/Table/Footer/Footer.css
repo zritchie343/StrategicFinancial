@@ -1,0 +1,25 @@
+.totalBalanceDiv {
+    background-color: #87ceeb;
+    margin-top: 2px;
+    height: 25px;
+}
+
+.totalBalanceTitle {
+    margin: 0px 0px 0px 50px;
+    font-weight: 625;
+}
+
+.totalBalanceNumber {
+    float: right;
+    font-weight: 625;
+    padding-right: 5px;
+}
+
+.totalRowCount {
+    font-weight: 625;
+}
+
+.checkedRowCount {
+    padding-left: 50px;
+    font-weight: 625;
+}
